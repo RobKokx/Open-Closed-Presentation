@@ -8,10 +8,10 @@ public class Dierentuin {
     public void dierentuinZonderOC(String dier){
          switch(dier) {
              case "leeuw":
-                 leeuw.maakGeluid();
+                 System.out.println("ROAR!");
                  break;
              case "olifant":
-                 olifant.maakGeluid();
+                 System.out.println("TOOT!");
                  break;
                  //Hier moet je nu voor elk dier een switch case maken
          }
