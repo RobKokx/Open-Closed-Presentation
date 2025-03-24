@@ -13,6 +13,8 @@ public class Dierentuin {
              case "olifant":
                  System.out.println("TOOT!");
                  break;
+             default:
+                 System.out.println("Je zal toch echt zelf een switchCase moeten maken oen.");
                  //Hier moet je nu voor elk dier een switch case maken
          }
     }
