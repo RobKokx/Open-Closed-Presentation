@@ -2,7 +2,7 @@ package org.example.dieren;
 
 public class Leeuw extends Dier{
 
-    String naam;
+    private final String naam;
 
     public Leeuw(String naam){
         this.naam = naam;

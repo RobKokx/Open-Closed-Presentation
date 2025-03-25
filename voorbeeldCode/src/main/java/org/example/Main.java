@@ -3,6 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Dierentuin dierentuin = new Dierentuin();
+
         dierentuin.dierentuinZonderOC(dierentuin.leeuw.getNaam());
         dierentuin.dierentuinMetOC(dierentuin.leeuw);
 

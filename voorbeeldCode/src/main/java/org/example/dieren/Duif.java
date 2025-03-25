@@ -2,7 +2,7 @@ package org.example.dieren;
 
 public class Duif extends Dier{
 
-    String naam;
+    private final String naam;
 
     public Duif(String naam){
         this.naam = naam;
