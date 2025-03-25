@@ -1,5 +1,10 @@
 package org.example;
 
+import org.example.dieren.Dier;
+import org.example.dieren.Duif;
+import org.example.dieren.Leeuw;
+import org.example.dieren.Olifant;
+
 public class Dierentuin {
     Leeuw leeuw = new Leeuw("leeuw");
     Olifant olifant = new Olifant("olifant");

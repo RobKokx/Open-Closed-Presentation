@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dieren;
 
 public class Leeuw extends Dier{
 
@@ -8,7 +8,10 @@ public class Leeuw extends Dier{
         this.naam = naam;
     }
     @Override
-    void maakGeluid() {
+    public void maakGeluid() {
         System.out.println("ROAR!");
     }
+
+    public String getNaam() {return naam;}
+
 }

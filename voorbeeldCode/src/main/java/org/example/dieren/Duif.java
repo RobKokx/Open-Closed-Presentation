@@ -1,4 +1,4 @@
-package org.example;
+package org.example.dieren;
 
 public class Duif extends Dier{
 
@@ -9,7 +9,9 @@ public class Duif extends Dier{
     }
 
     @Override
-    void maakGeluid() {
+    public void maakGeluid() {
         System.out.println("ROEKOE ROEKOE");
     }
+
+    public String getNaam() {return naam;}
 }
